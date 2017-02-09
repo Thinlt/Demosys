@@ -1,0 +1,17 @@
+{
+	"require": {
+		"symfony/console": "~2.3 <2.7",
+		"composer/semver": "1.4.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/"
+		}
+	},
+	"repositories": {
+		"magento": {
+			"type": "composer",
+			"url": "https://repo.magento.com"
+		}
+	}
+}

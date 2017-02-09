@@ -1,0 +1,12 @@
+Order deny,allow
+Deny from all
+
+#<Files "index.php">
+#	Order allow,deny
+#	Allow from all
+#</Files>
+
+#<Files "reset_db.sh">
+#	Order deny,allow
+#	Deny from all
+#</Files>
